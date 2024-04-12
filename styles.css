@@ -1,0 +1,38 @@
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Light_gray: hsl(212, 45%, 89%);
+  --Grayish_blue: hsl(220, 15%, 55%);
+  --Dark_blue: hsl(218, 44%, 22%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  width: 96%;
+  padding: 2%;
+  background-color: var(--Light_gray);
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 40%;
+  border-radius: 20px;
+  background-color: var(--White);
+}
+
+figure{
+  width: 92%;
+  margin: 4%;
+}
+
+figure img{
+  width: 100%;
+  border-radius: 15px;
+}
